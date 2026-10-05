@@ -4,6 +4,12 @@ import { IonicRouteStrategy, provideIonicAngular } from '@ionic/angular';
 
 import { routes } from './app/app.routes';
 import { AppComponent } from './app/app.component';
+import {addIcons} from "ionicons";
+import {addCircle, checkmark} from "ionicons/icons";
+
+addIcons(
+  {addCircle, checkmark},
+)
 
 bootstrapApplication(AppComponent, {
   providers: [

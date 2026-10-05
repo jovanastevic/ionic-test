@@ -1,0 +1,24 @@
+{
+  "id": "1",
+  "quizName": "Quiz",
+  "questions": [
+    {
+      "id": "1",
+      "title": "Capital of Austria?",
+      "a1": "Berlin",
+      "a2": "Paris",
+      "a3": "Vienna",
+      "a4": "London",
+      "correct": "3"
+    },
+    {
+      "id": "1",
+      "title": "Capital of Austria?",
+      "a1": "Berlin",
+      "a2": "Paris",
+      "a3": "Vienna",
+      "a4": "London",
+      "correct": "3"
+    }
+  ]
+}

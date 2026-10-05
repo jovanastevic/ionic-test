@@ -1,0 +1,14 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Quiz
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <p>Aktuelles Quiz: {{data.currentQuiz.quizName}} Anzahl Fragen: {{data.currentQuiz.questions.length}}</p>
+  <ion-button expand="block" class="ion-color-primary" (click)="showQuestion()">
+      Show Question
+    </ion-button>
+</ion-content>
